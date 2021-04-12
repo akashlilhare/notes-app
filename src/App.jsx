@@ -1,11 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Header from "./Header";
+import Footer from "./Footer";
+import Note from "./Note";
 
-const app = function(){
+const app = function () {
     return <div>
-<Header />
-</div>;
+        <Header />
+        <Note />
+        <Footer />
+    </div>;
 }
 
 
